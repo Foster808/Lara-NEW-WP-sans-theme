@@ -1,0 +1,55 @@
+// Color system
+//
+
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+
+
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+$color-secondary-2-0: blue !important;
+
+$primary: rgba(0, 155, 187, 1);
+$secondary: rgba(0, 81, 149, 1);
+$tertiary: rgba(119, 13, 41, 1);
+$accent: rgba(255, 119, 0, 1);
+
+// Could eventually throw this stuff in var(--primary-blahblah); referenced
+// from :root {} somewhere, 
+
+// These are bootstrap variables that are redefined
+
+$navbar-dark-color: rgba(black, 1);
+$navbar-dark-hover-color: rgba($accent, 1);
+
+$navbar-default-brand-color:               rgba($primary, 1);
+$navbar-default-brand-hover-color:         rgba($accent, 1);
+
+$navbar-bg-primary: rgba(white, 1);
+$footer-fg-primary: rgba(white, 1);
+$footer-bg-primary: $secondary !important;
+
+// $primary:       $blue !default;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-800 !default;
+
+
+$font-family-sans-serif:      
+ -apple-system,
+ BlinkMacSystemFont,
+ "Open Sans",
+ "Segoe UI",
+ "Helvetica Neue",
+ Arial,
+ "Open Sans",
+ sans-serif,
+ "Apple Color Emoji",
+ "Segoe UI Emoji",
+ "Segoe UI Symbol",
+ "Noto Color Emoji" !default;
+

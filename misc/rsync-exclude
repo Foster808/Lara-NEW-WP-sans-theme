@@ -1,0 +1,15 @@
+wordpress/wp-config.php
+*.swp
+wp-config.php
+rsync-exclude
+wordpress/mu-plugins
+deploy.sh
+wp-migrate-db
+wordpress/plugins/
+wordpress/upgrade/
+wp-migrate-db/**
+.git
+.git/**
+node_modules/**
+wp-content/wp-cache-config.php
+log/**

@@ -1,0 +1,3 @@
+[submodule "wordpress/wp-content/themes/understrap"]
+	path = wordpress/wp-content/themes/understrap
+	url = git@github.com:AltaPlanning/simple-wordpress-boilerplate-theme.git

@@ -1,0 +1,33 @@
+# Wordpress basics
+*.log
+wp-config.php
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/backup-db/
+wordpress/wp-content/backups/
+wordpress/wp-content/blogs.dir/
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/
+wordpress/wp-content/mu-plugins/
+wordpress/wp-content/wp-cache-config.php
+wordpress/wp-content/plugins/hello.php
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+# Composer stuff
+/vendor/
+
+# Env stuff: probably has license keys, so don't check in.
+.env
+
+# Theme stuff
+wordpress/wp-content/themes/understrap/node_modules/
+
+# Editor stuff
+*.swp
+*.swo
+*.sw*

@@ -1,0 +1,15 @@
+path: wordpress/
+
+config create:
+  dbuser: wordpress
+  dbpass: wordpress
+  dbname: wordpress
+  dbhost: db
+
+core install:
+  url: 'http://localhost/'
+  title: 'Site Boilerplate'
+  admin_user: asdf
+  admin_password: asdf
+  admin_email: test@example.com
+
